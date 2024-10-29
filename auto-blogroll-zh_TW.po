@@ -1,0 +1,472 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: auto-blogroll\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-05-17 22:44+0800\n"
+"PO-Revision-Date: 2009-05-17 22:44+0800\n"
+"Last-Translator: askie <askie@sohu.com>\n"
+"Language-Team: askie <imaskie@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ab_function.php:26
+msgid "Wordpress 2.1 above Needed!"
+msgstr "Wordpress版本需要>2.1 "
+
+#: ab_function.php:34
+msgid "function not find, can not check page PR!"
+msgstr "函數無效，無法檢測對方連結網頁PR值！"
+
+#: ab_function.php:40
+msgid "links page exist, recommend page name: "
+msgstr "links頁面已經存在！建議使用名稱："
+
+#: ab_function.php:45
+msgid "Recommend page name: "
+msgstr "建議連結頁面的使用名稱："
+
+#: ab_function.php:50
+msgid "You have set the links page name !"
+msgstr "上次啟動時，已經設置了連結頁面名稱称！建議不要更改！"
+
+#: ab_function.php:76
+#: auto-blogroll.php:99
+#: auto-blogroll.php:423
+#: auto-blogroll.php:495
+msgid "ManageLinks"
+msgstr "管理連結"
+
+#: ab_function.php:76
+#: auto-blogroll.php:99
+#: auto-blogroll.php:423
+#: auto-blogroll.php:495
+msgid "AddLink"
+msgstr "新增連結"
+
+#: ab_function.php:76
+#: auto-blogroll.php:99
+#: auto-blogroll.php:423
+#: auto-blogroll.php:495
+msgid "GeneralSetting"
+msgstr "基本設置(GeneralSetting)"
+
+#: ab_function.php:76
+#: ab_function.php:110
+#: auto-blogroll.php:99
+#: auto-blogroll.php:423
+#: auto-blogroll.php:495
+msgid "Install"
+msgstr "安裝"
+
+#: ab_function.php:76
+#: ab_function.php:195
+#: auto-blogroll.php:99
+#: auto-blogroll.php:423
+#: auto-blogroll.php:495
+msgid "Preview"
+msgstr "預覽"
+
+#: ab_function.php:81
+msgid "Links page name: "
+msgstr "連結頁面名稱："
+
+#: ab_function.php:83
+msgid "Create new page:"
+msgstr "創建一個新的頁面輸出鏈接："
+
+#: ab_function.php:84
+msgid "(Use alphanumeric characters)"
+msgstr "（必須是字母、數字組合）"
+
+#: ab_function.php:85
+msgid "Use exist page:"
+msgstr "使用已存在的頁面輸出鏈接："
+
+#: ab_function.php:89
+msgid "Function of the step:"
+msgstr "這一步會進行如下動作："
+
+#: ab_function.php:92
+msgid "Create your links exchange page"
+msgstr "新增交換連結頁面"
+
+#: ab_function.php:93
+msgid "Import wordpress blogroll links"
+msgstr "匯入blogroll中的所有連結"
+
+#: ab_function.php:98
+msgid "Manually Import wordpress blogroll links:"
+msgstr "手動匯入blogroll連結："
+
+#: ab_function.php:100
+#: ab_function.php:106
+msgid "(Click here)"
+msgstr "點這裡"
+
+#: ab_function.php:104
+msgid "Change the links page's content and title:"
+msgstr "修改連結頁面内容和標題："
+
+#: ab_function.php:121
+msgid "Plugin language:"
+msgstr "Plugin language:"
+
+#: ab_function.php:178
+msgid " create successfully."
+msgstr "新增成功。"
+
+#: ab_function.php:182
+msgid " create failed."
+msgstr "新增失敗。"
+
+#: ab_function.php:188
+msgid " allready exsit."
+msgstr "已經存在"
+
+#: ab_function.php:193
+msgid "install successfully."
+msgstr "安装成功！"
+
+#: ab_function.php:194
+msgid "Next step to <a href='./widgets.php'><font color=red>add AutoBlogRoll widget</font></a> to your sidebar."
+msgstr "下一步需要你手工給博客側邊欄<a href='./widgets.php'><font color=red>添加AutoBlogRoll widget</font></a>."
+
+#: ab_function.php:295
+msgid "Import links from blogroll successfully!"
+msgstr "匯入原有連結成功！"
+
+#: ab_function.php:691
+msgid "No permission to write, Please change plugin folder to 0777 ."
+msgstr "無寫入權限，請更改目錄權限為777！"
+
+#: auto-blogroll.php:86
+#: auto-blogroll.php:92
+#: auto-blogroll.php:1053
+msgid "Saved successfully!"
+msgstr "儲存成功。"
+
+#: auto-blogroll.php:86
+#: auto-blogroll.php:822
+msgid " refresh page now!"
+msgstr "正在更新頁面！"
+
+#: auto-blogroll.php:108
+msgid "Total of links:"
+msgstr "總共連結數量："
+
+#: auto-blogroll.php:114
+msgid "Exchange page same as site URL:"
+msgstr "要求你的連結交換頁面與網站是相同頁面："
+
+#: auto-blogroll.php:121
+msgid "PR needed:"
+msgstr "連結網頁PR值要求："
+
+#: auto-blogroll.php:123
+msgid "Check according to PR"
+msgstr "使用PR值判斷"
+
+#: auto-blogroll.php:124
+msgid "Not according to PR"
+msgstr "不使用PR值判斷"
+
+#: auto-blogroll.php:126
+msgid "Minimal of PR"
+msgstr "PR值最小值要求"
+
+#: auto-blogroll.php:131
+msgid "Alexa needed (coding...):"
+msgstr "連結網頁Alexa排名要求：<br>(编寫中......)"
+
+#: auto-blogroll.php:133
+msgid "Check according to Alexa"
+msgstr "使用Alexa排名判斷"
+
+#: auto-blogroll.php:134
+msgid "Not according to Alexa"
+msgstr "不使用Alexa排名判斷"
+
+#: auto-blogroll.php:136
+msgid "Maximal of Alexa"
+msgstr "Alexa排名最大值"
+
+#: auto-blogroll.php:140
+msgid "Links need Approved to show:"
+msgstr "連結是否需要審核："
+
+#: auto-blogroll.php:147
+msgid "Check you link form exchange page daily :"
+msgstr "是否每天自動檢測連結有效性："
+
+#: auto-blogroll.php:154
+msgid "Only display on Home :"
+msgstr "只在首頁顯示連接："
+
+#: auto-blogroll.php:161
+msgid "Invalid checking your URL count :"
+msgstr "沒有檢測連結的次數限制："
+
+#: auto-blogroll.php:164
+msgid "If the failure times in checking your link form the exchange page be over this number , he's link will no displaying on you exchange page."
+msgstr "每天檢測對方網頁是否存在你的連結，如果累積等於或者超過這個限制，則取消顯示對方連結。"
+
+#: auto-blogroll.php:168
+msgid "Title of exchange link page:"
+msgstr "申請入口連結名稱："
+
+#: auto-blogroll.php:170
+#: auto-blogroll.php:1191
+msgid "Apply to exchange link"
+msgstr "反向連結"
+
+#: auto-blogroll.php:174
+msgid "My blog's logo file URL:"
+msgstr "本站Logo網址："
+
+#: auto-blogroll.php:180
+msgid "Support askie:"
+msgstr "支持askie"
+
+#: auto-blogroll.php:187
+msgid "Synchronous working with wordpress database:"
+msgstr "連結資料與WP資料庫同步："
+
+#: auto-blogroll.php:189
+msgid "import"
+msgstr "匯入"
+
+#: auto-blogroll.php:192
+#: auto-blogroll.php:476
+msgid "delete"
+msgstr "刪除"
+
+#: auto-blogroll.php:197
+msgid "Exchange term:"
+msgstr "交換條款："
+
+#: auto-blogroll.php:216
+#: auto-blogroll.php:546
+msgid "Save!"
+msgstr "儲存"
+
+#: auto-blogroll.php:241
+msgid "Language change successfully!"
+msgstr "Language change successfully!"
+
+#: auto-blogroll.php:290
+msgid "Checked successfully!"
+msgstr "檢測成功。"
+
+#: auto-blogroll.php:433
+msgid "date"
+msgstr "日期"
+
+#: auto-blogroll.php:434
+msgid "link"
+msgstr "連結"
+
+#: auto-blogroll.php:435
+msgid "logo"
+msgstr "圖示"
+
+#: auto-blogroll.php:436
+msgid "categorize"
+msgstr "分類"
+
+#: auto-blogroll.php:437
+msgid "PR"
+msgstr "PR值"
+
+#: auto-blogroll.php:438
+msgid "display"
+msgstr "顯示"
+
+#: auto-blogroll.php:439
+#: auto-blogroll.php:474
+msgid "check"
+msgstr "檢測"
+
+#: auto-blogroll.php:440
+msgid "invalidation"
+msgstr "失效"
+
+#: auto-blogroll.php:441
+msgid "operate"
+msgstr "操作"
+
+#: auto-blogroll.php:442
+msgid "sort"
+msgstr "排序"
+
+#: auto-blogroll.php:464
+msgid "edit"
+msgstr "編輯"
+
+#: auto-blogroll.php:471
+msgid "<ul><li>display=whether to displaying the link</li><li>check=whether checking your link form the site</li><li>invalidation=invalidation times of checking your link</li><li>add <a href=\"[siteurl]/wp-admin/widgets.php\">widget</a> to you sidebar！</li></ul>"
+msgstr "<ul><li>顯示未選擇=連結不顯示</li><li>檢測已選擇=每天檢測對方網頁是否存在你的連結</li><li>失效=在對方網頁沒有檢測到你的連結的次數</li><li>檢測已選擇網站=在對方網頁檢測有没有你的連結，没有的話失效+1，有的話失效=0</li><li>編輯完畢了分類記得去<a href=\"[siteurl]/wp-admin/widgets.php\">widget</a>頁面設置分類喔！</li></ul>"
+
+#: auto-blogroll.php:473
+msgid "save"
+msgstr "儲存"
+
+#: auto-blogroll.php:504
+#: auto-blogroll.php:649
+#: auto-blogroll.php:719
+#: auto-blogroll.php:845
+msgid "Webmaster"
+msgstr "網站站長"
+
+#: auto-blogroll.php:510
+#: auto-blogroll.php:653
+#: auto-blogroll.php:719
+#: auto-blogroll.php:845
+msgid "Email"
+msgstr "電子信箱"
+
+#: auto-blogroll.php:516
+#: auto-blogroll.php:657
+#: auto-blogroll.php:719
+#: auto-blogroll.php:845
+msgid "Site name"
+msgstr "網站名稱"
+
+#: auto-blogroll.php:522
+#: auto-blogroll.php:661
+#: auto-blogroll.php:719
+#: auto-blogroll.php:845
+msgid "Site URL"
+msgstr "網站網址"
+
+#: auto-blogroll.php:528
+#: auto-blogroll.php:674
+#: auto-blogroll.php:719
+#: auto-blogroll.php:845
+msgid "Exchange link page"
+msgstr "反向連結"
+
+#: auto-blogroll.php:534
+#: auto-blogroll.php:685
+msgid "Logo URL"
+msgstr "網站圖示"
+
+#: auto-blogroll.php:540
+#: auto-blogroll.php:689
+msgid "Description"
+msgstr "網站描述"
+
+#: auto-blogroll.php:620
+#: auto-blogroll.php:710
+#: auto-blogroll.php:836
+msgid "The total number of links to the ceiling!"
+msgstr "總連結數已到達上限！"
+
+#: auto-blogroll.php:678
+msgid "host be same as siteURL"
+msgstr "要求對方連結交換頁面與網站同域名"
+
+#: auto-blogroll.php:732
+#: auto-blogroll.php:858
+msgid " must be added"
+msgstr "必須填寫！"
+
+#: auto-blogroll.php:739
+#: auto-blogroll.php:865
+msgid "Site URL ro Exchange link page is invalid!"
+msgstr "網站網址或者交換連結頁面網址不合法！"
+
+#: auto-blogroll.php:745
+#: auto-blogroll.php:871
+msgid "Email is invalid!"
+msgstr "非法電子信箱！"
+
+#: auto-blogroll.php:753
+#: auto-blogroll.php:879
+msgid "Site URL ro Exchange link page is not one same host!"
+msgstr "網站網址與交換連結頁面必須同域名！"
+
+#: auto-blogroll.php:759
+#: auto-blogroll.php:885
+msgid "Link allready exsit!"
+msgstr "交換連結已經存在，不必重新申請！如有問題，請與站長聯絡。"
+
+#: auto-blogroll.php:766
+#: auto-blogroll.php:892
+msgid "Your site have set nofollow or noindex!"
+msgstr "交換連結的網頁設置了nofollow或者noindex，無法交換連結！請與站長聯絡。"
+
+#: auto-blogroll.php:771
+#: auto-blogroll.php:897
+msgid "Can not find my site URL in your page!"
+msgstr "交換連結的網頁沒有檢測到本站連結，無法交換連結！<br>請先設置好本站連結再填寫申請表單！"
+
+#: auto-blogroll.php:795
+#: auto-blogroll.php:921
+msgid "Your page PR so little!"
+msgstr "對不起，您的網頁PR值太低，無法交換連結！"
+
+#: auto-blogroll.php:820
+#: auto-blogroll.php:933
+msgid "Your link need be appoved to display!"
+msgstr "但是需要審核才會顯示！"
+
+#: auto-blogroll.php:822
+#: auto-blogroll.php:936
+msgid "Exchang successfully!"
+msgstr "交換成功！"
+
+#: auto-blogroll.php:970
+msgid "Edit successfully!"
+msgstr "編輯成功！"
+
+#: auto-blogroll.php:1015
+msgid "Saved successfully! Refreshing now ..."
+msgstr "儲存成功，正在更新頁面..."
+
+#: auto-blogroll.php:1038
+msgid "Deleted successfully!"
+msgstr "删除成功。"
+
+#: auto-blogroll.php:1518
+msgid "Title:"
+msgstr "標題："
+
+#: auto-blogroll.php:1520
+msgid "Chose categorize :"
+msgstr "選擇輸出分類："
+
+#: auto-blogroll.php:1544
+msgid "You are not allowed to delete this page."
+msgstr "你沒有權限刪除這個頁面"
+
+#: auto-blogroll.php:1549
+msgid "Error in deleting..."
+msgstr "刪除出錯！"
+
+#~ msgid "Create ab_links.php as page template in current template folder"
+#~ msgstr "在當前主題题資料夾會新增模版ab_links.php(如果存在則覆蓋)"
+#~ msgid " write enable."
+#~ msgstr "可寫入"
+#~ msgid " write disabled."
+#~ msgstr "無法寫入"
+#~ msgid " assign template to success."
+#~ msgstr "模版關聯成功！"
+#~ msgid " assign template to failure."
+#~ msgstr "模版關聯失败！"
+#~ msgid "Limited number of checking false :"
+#~ msgstr "連結失效次數限制："
+
+#, fuzzy
+#~ msgid "saved."
+#~ msgstr "儲存"
+#~ msgid "Synchronous inputting to wordpress database:"
+#~ msgstr "同步匯入："
+#~ msgid "Synchronous deleting to wordpress database:"
+#~ msgstr "同步刪除："
+
